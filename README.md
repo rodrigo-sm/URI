@@ -11,5 +11,5 @@ O URI Online Judge é um projeto que está sendo desenvolvido pelo Departamento 
 <br></br>
 ### About Me  
 Eu sou o Rodrigo, estudante de ciência da computação da Universidade Católica de Santos([UNISANTOS](https://www.unisantos.br/)), apaixonado por programação e desafio.
-Eu posso ser encontrado no linkedin[here](https://www.linkedin.com/in/rodrigo-s-4b7096aa/). 
-Você também pode me mandar um email em *rodrigo_sm@outlook.com.br*. 
+
+Eu posso ser encontrado no linkedin [aqui](https://www.linkedin.com/in/rodrigo-s-4b7096aa/) ou você também pode me mandar um email em *rodrigo_sm@outlook.com.br*. 
