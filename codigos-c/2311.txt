@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include<stdbool.h>
+int main()
+{
+    int x,j,i;
+    scanf("%d", &x);
+    double n,g;
+    char s[101];
+    for(i=0;i<x;i++)
+    {
+        double m=-10.00,p=100.00,r=0.0;
+        scanf("%s", s);
+        scanf("%lf", &g);
+        for(j=0;j<7;j++)
+        {
+            scanf("%lf", &n);
+            if(n > m) m = n;
+            if(n < p) p = n;
+            r += n;
+        }
+        r -= (m + p);
+        r *= g;
+        printf("%s %.2lf\n", s, r);
+    }
+    return 0;
+}

@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main()
+{
+    int n=0,q=0,c=0,r=0,i=0,s=0,o=0;
+    char t;
+    scanf("%d", &n);
+    for(i=0; i<n; i++)
+    {
+        scanf("%d %c", &q, &t);
+        if(t == 'C')
+            c+=q;
+        if(t == 'R')
+            r+=q;
+        if(t == 'S')
+            s+=q;
+        o +=q;
+    }
+    printf("Total: %d cobaias\n", o);
+    printf("Total de coelhos: %d\n", c);
+    printf("Total de ratos: %d\n", r);
+    printf("Total de sapos: %d\n", s);
+    printf("Percentual de coelhos: %.2f %%\n", (float)c * 100.0 / o);
+    printf("Percentual de ratos: %.2f %%\n", (float)r * 100.0 / o);
+    printf("Percentual de sapos: %.2f %%\n", (float)s * 100.0 / o);
+    return 0;
+}

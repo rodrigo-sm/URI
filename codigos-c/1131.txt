@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    int pg,pi,i=0,g=0,e=0,c=0,d;
+    do
+    {
+        scanf("%d %d", &pi, &pg);
+        if(pg > pi) g++;
+        else
+            if (pg < pi) i++;
+            else e++;
+        c++;
+        printf("Novo grenal (1-sim 2-nao)\n");
+        scanf("%d", &d);
+    }while(d == 1);
+    printf("%d grenais\nInter:%d\nGremio:%d\nEmpates:%d\n", c, i, g, e);
+    if(i > g)
+        printf("Inter venceu mais\n");
+    else
+        if(g > i)
+        printf("Gremio venceu mais\n");
+        else
+            printf("Nao houve vencedor\n");
+    return 0;
+}

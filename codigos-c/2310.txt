@@ -1,0 +1,24 @@
+	#include <stdio.h>
+#include<stdbool.h>
+int main()
+{
+    int t,s1,s,b1,i,b,a1,a,ss=0,sb=0,sa=0,ss1=0,sb1=0,sa1=0;
+    char n[101];
+    scanf("%d", &t);
+    for(i=0;i<t;i++)
+    {
+        scanf("%s", n);
+        scanf("%d %d %d", &s, &b, &a);
+        scanf("%d %d %d", &s1, &b1, &a1);
+        ss += s;
+        sa += a;
+        sb += b;
+        ss1 += s1;
+        sa1 += a1;
+        sb1 += b1;
+    }
+    printf("Pontos de Saque: %.2lf %%.\n", (double) ss1 * 100 / ss);
+    printf("Pontos de Bloqueio: %.2lf %%.\n", (double) sb1 * 100 / sb);
+    printf("Pontos de Ataque: %.2lf %%.\n", (double) sa1 * 100 / sa);
+    return 0;
+}

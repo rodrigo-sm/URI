@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include<string.h>
+int main()
+{
+    int n, m;
+    char s[10100];
+    scanf("%d", &n);
+    while(n--)
+    {
+        scanf("%s", s);
+        m = strlen(s);
+        printf("%.2lf\n", m*.01);
+    }
+    return 0;
+}

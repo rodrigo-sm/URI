@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    int n,i,m,p;
+    scanf("%d", &n);
+            m = n;
+            p = 1;
+    for(i=2;i<=100;i++)
+    {
+        scanf("%d", &n);
+        if(n > m)
+        {
+            m = n;
+            p = i;
+        }
+    }
+    printf("%d\n%d\n", m, p);
+    return 0;
+}

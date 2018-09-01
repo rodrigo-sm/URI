@@ -1,0 +1,5 @@
+select p.name
+from products p
+inner join providers f
+on f.id = p.id_providers
+where (p.amount between 10.00 and 20.00) and f.name like 'P%';

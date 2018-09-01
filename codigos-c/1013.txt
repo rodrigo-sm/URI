@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+
+int main()
+{
+    int a,b,c,r,r1,r2;
+    scanf("%d %d %d", &a, &b, &c);
+    r1 = (a+b+abs(a-b))/2;
+    r2 = (b+c+abs(b-c))/2;
+    r = (r1+r2+abs(r1-r2))/2;
+    printf("%d eh o maior\n", r);
+    return 0;
+}

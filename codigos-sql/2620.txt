@@ -1,0 +1,5 @@
+select c.name,p.id
+from customers c
+inner join orders p
+on p.id_customers = c.id
+where p.orders_date between '2016-01-01' AND '2016-06-30';

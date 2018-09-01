@@ -1,0 +1,2 @@
+SELECT DISTINCT p.city  from providers p
+group by p.city;

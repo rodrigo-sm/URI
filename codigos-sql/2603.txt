@@ -1,0 +1,4 @@
+	select  c.name,
+        c.street 
+from customers c
+where city = 'Porto Alegre';

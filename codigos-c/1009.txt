@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    double s,t,x;
+    char n[50];
+    scanf("%s %lf %lf", n, &s, &t);
+    x = (s + (t * 0.15));
+    printf("TOTAL = R$ %.2lf\n", x);
+    return 0;
+}

@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    char s[10030] = "Feliz nat";
+    int n,i,c;
+    scanf("%d", &n);
+    for(i = 9,c=0;c < n;i++,c++)
+        s[i] = 'a';
+    s[i] = 'l';
+    i++;
+    s[i] = '!';
+    i++;
+    s[i] = '\0';
+    printf("%s\n", s);
+}
