@@ -1,9 +1,9 @@
-# SOLUÇÕES PARA O URI
+﻿# SOLUÇÕES PARA O URI
 
 Minhas soluções para os problemas do  [www.urionlinejudge.com.br](https://www.urionlinejudge.com.br/judge/en/login).  
 
 As soluções foram feitas  principalmente em C, com algumas em SQL.
-Atualmente, existem 172 soluções e, espero que mais sejam adicionadas.
+Atualmente, existem 177 soluções e, espero que mais sejam adicionadas.
 <br></br>
 ### Sobre o URI Online Judge  
 
