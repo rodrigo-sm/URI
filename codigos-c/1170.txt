@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main()
+{
+
+    int n, d = 0;
+
+    float food;
+
+    scanf("%d", &n);
+
+    while(n--)
+
+    {
+
+        scanf(" %f", &food);
+
+        while(food > 1)
+
+        {
+
+            d++;
+
+            food /= 2;
+
+        }
+
+        printf("%d dias\n", d);
+
+        d = 0;
+
+    }
+
+    return 0;
+
+}
